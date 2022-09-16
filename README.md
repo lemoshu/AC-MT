@@ -1,5 +1,3 @@
 # AC-MT
 
-Under construction.
-
-Related paper is being under review.
+Related project is being under review. Implementation will be available upon paper acceptance.
