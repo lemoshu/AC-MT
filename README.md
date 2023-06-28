@@ -1,4 +1,4 @@
-# Ambiguity-selective consistency regularization for mean-teacher semi-supervised medical image segmentation
+# AC-MT: Ambiguity-selective consistency regularization for mean-teacher semi-supervised medical image segmentation
 
 Under reconstruction. 
 
