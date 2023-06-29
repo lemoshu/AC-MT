@@ -20,4 +20,4 @@ If you find this paper useful, please cite as:
 
 ## Feedback
 
-For further questions, pls feel free to contact [Jack Xu](mailto:jackxz@link.cuhk.edu.hk).
+For further questions, feel free to contact [Jack Xu](mailto:jackxz@link.cuhk.edu.hk).
