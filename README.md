@@ -4,6 +4,13 @@ This repository will hold the PyTorch implementation of the paper [Ambiguity-sel
 
 Under construction. 
 
+## Requirements
+Some important required packages include:
+* Pytorch version >=0.4.1.
+* Python == 3.6 
+* Cleanlab
+* Some basic python packages such as Numpy, Scikit-image, SimpleITK, Scipy, etc. Check requirements.txt.
+
 
 ## Citation
 
