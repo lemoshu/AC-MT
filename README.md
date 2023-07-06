@@ -22,7 +22,7 @@ Refer to ./data
 3. Train
 ```
 cd ./code
-python train_ACMT_{}_3D.py
+python train_ACMT_{}_3D.py --labeled_num {} --gpu 0
 ```
 
 4. Test 
