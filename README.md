@@ -54,3 +54,4 @@ If you find this paper useful, please cite as:
   publisher={Elsevier}
 }
 ```
+The implementation of other SSL approches can be referred to the author Dr. Luo's [SSL4MIS project](https://github.com/HiLab-git/SSL4MIS).
