@@ -7,18 +7,18 @@ This repository will hold the PyTorch implementation of the paper [Ambiguity-sel
 ### Abstract
 Semi-supervised learning has greatly advanced medical image segmentation since it effectively alleviates the need of acquiring abundant annotations from experts, wherein the mean-teacher model, known as a milestone of perturbed consistency learning, commonly serves as a standard and simple baseline. Inherently, learning from consistency can be regarded as learning from stability under perturbations. Recent improvement leans toward more complex consistency learning frameworks, yet, little attention is paid to the consistency target selection. Considering that the ambiguous regions from unlabeled data contain more informative complementary clues, we improve the mean-teacher model to a novel ambiguity-consensus mean-teacher (AC-MT) model. Particularly, we comprehensively introduce and benchmark a family of plug-and-play strategies for ambiguous target selection from the perspectives of entropy, model uncertainty and label noise self-identification, respectively. Then, the estimated ambiguity map is incorporated into the consistency loss to encourage consensus between the two models' predictions in these informative regions. In essence, our AC-MT aims to find out the most worthwhile voxel-wise targets from the unlabeled data, and the model especially learns from the perturbed stability of these informative regions. 
 
-### Key Features
+### :star: Key Features
 - A new consistency target selection perspective to boost the mean-teacher semi-supervised medical volume segmentation.
 - Four plug-and-play ambiguity selection strategies are provided.
 
 
-## Requirements
+## :hammer: Requirements
 Check requirements.txt.
 * Pytorch version >=0.4.1.
 * Python == 3.6 
 * Cleanlab (for S-Err. strategy)
 
-## Usage
+## :computer: Usage
 
 1. Clone the repo:
 ```
@@ -55,4 +55,4 @@ If you find this paper useful, please cite as:
   publisher={Elsevier}
 }
 ```
-The implementation of other SSL approaches can be referred to the author Dr. Luo's [SSL4MIS project](https://github.com/HiLab-git/SSL4MIS).
+:beers: The implementation of other SSL approaches can be referred to the author Dr. Luo's [SSL4MIS project](https://github.com/HiLab-git/SSL4MIS).
